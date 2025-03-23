@@ -1,121 +1,144 @@
-### 🚀 **Roadmap to Learn Network Fundamentals**  
+### **Roadmap to Learn Network Fundamentals for the IT Industry**  
 
-If you're looking to build a strong foundation in networking, follow this structured roadmap. This will cover everything from the basics to more advanced topics.
-
----
-
-## 📌 **Phase 1: Basics of Networking (0-2 Weeks)**
-### 🔹 **Understanding Computer Networks**
-- What is a network?
-- Types of networks (LAN, WAN, MAN)
-- Network topologies (Bus, Star, Ring, Mesh, Hybrid)
-
-### 🔹 **Networking Models**
-- **OSI Model (7 Layers)**
-  - Physical, Data Link, Network, Transport, Session, Presentation, Application
-- **TCP/IP Model**
-  - Link, Internet, Transport, Application
-
-### 🔹 **Key Networking Components**
-- Switches, Routers, Hubs, Bridges
-- Network Interface Cards (NIC)
-- Modems & Firewalls
-
-📚 **Resources:**
-- Cisco Networking Basics (YouTube)
-- "Computer Networking: A Top-Down Approach" by Kurose & Ross
+If you want to build a strong foundation in networking for the IT industry, especially for roles like DevOps, Cloud, or System Administration, follow this structured roadmap:
 
 ---
 
-## 📌 **Phase 2: Network Protocols (2-4 Weeks)**
-### 🔹 **Common Protocols & Their Uses**
-- **IP (IPv4 & IPv6)**
-  - Addressing, Subnetting, CIDR
-- **TCP vs UDP**
-  - When to use which?
-- **HTTP(S), FTP, DNS, DHCP**
-- **ICMP & ARP**
-  - Ping & Traceroute
+## **1️⃣ Basics of Networking**  
+⏳ *Time Required:* 1-2 Weeks  
+✅ *Goal:* Understand the fundamentals of networking.  
 
-### 🔹 **Subnetting & IP Addressing**
-- Private vs Public IPs
-- CIDR Notation & Subnet Masks
-- Subnetting & Supernetting
+🔹 **What to Learn?**  
+- What is Networking?  
+- Types of Networks (LAN, WAN, MAN)  
+- OSI Model (7 Layers)  
+- TCP/IP Model  
+- IP Addressing (IPv4 & IPv6)  
+- MAC Address & ARP  
 
-📚 **Resources:**
-- Packet Tracer (Cisco tool)
-- SubnettingPractice.com (for exercises)
-- "TCP/IP Illustrated" by W. Richard Stevens
+🔹 **Resources:**  
+📘 [Computer Networking: Principles, Protocols, and Practice - Olivier Bonaventure](https://inl.info.ucl.ac.be/CNP3)  
+🎥 [Networking Basics by NetworkChuck (YouTube)](https://www.youtube.com/c/NetworkChuck)  
 
 ---
 
-## 📌 **Phase 3: Network Security & Firewalls (4-6 Weeks)**
-### 🔹 **Basic Security Concepts**
-- **Firewalls** (Stateless vs Stateful)
-- **VPNs** & Tunneling
-- **NAT (Network Address Translation)**
-- **Proxy Servers & Load Balancers**
-- **Common Attacks**
-  - DDoS, Man-in-the-Middle (MITM), Phishing
+## **2️⃣ Network Protocols & Services**  
+⏳ *Time Required:* 1-2 Weeks  
+✅ *Goal:* Learn essential networking protocols and services.  
 
-📚 **Resources:**
-- TryHackMe: Network Security Modules
-- Wireshark (for network traffic analysis)
+🔹 **What to Learn?**  
+- Common Protocols:  
+  - HTTP vs HTTPS  
+  - FTP, SFTP, SCP  
+  - DNS (Domain Name System)  
+  - DHCP (Dynamic Host Configuration Protocol)  
+  - SNMP (Simple Network Management Protocol)  
+- Port Numbers & Services (Well-Known Ports)  
+- Packet Structure & Encapsulation  
 
----
-
-## 📌 **Phase 4: Hands-on with Networking Tools (6-8 Weeks)**
-### 🔹 **Networking Tools to Practice**
-- **Ping, Traceroute, Netstat**
-- **Wireshark (Packet Analysis)**
-- **Nmap (Network Scanning)**
-- **TCPDump (Traffic Capture)**
-- **Cisco Packet Tracer (Simulations)**
-
-🎯 **Practice Tasks:**
-- Capture and analyze packets using Wireshark.
-- Set up a small network in Cisco Packet Tracer.
-- Perform a basic scan using Nmap.
-
-📚 **Resources:**
-- "Mastering Wireshark" (Book)
-- Udemy: Wireshark Training
+🔹 **Resources:**  
+📘 [RFC 791 (IP) and RFC 793 (TCP) – IETF](https://www.rfc-editor.org/)  
+🎥 [Practical Networking (YouTube)](https://www.youtube.com/@PracticalNetworking)  
 
 ---
 
-## 📌 **Phase 5: Advanced Networking & Cloud (8-12 Weeks)**
-### 🔹 **Routing & Switching**
-- **Static vs Dynamic Routing**
-- **Routing Protocols (RIP, OSPF, BGP)**
-- **VLANs & Trunking**
-- **STP (Spanning Tree Protocol)**
+## **3️⃣ Subnetting & IP Addressing**  
+⏳ *Time Required:* 1 Week  
+✅ *Goal:* Master subnetting & IP addressing for network design.  
 
-### 🔹 **Networking in Cloud & DevOps**
-- **AWS Networking (VPC, Security Groups)**
-- **Docker Networking**
-- **Kubernetes Networking (Services, Ingress, CNI)**
+🔹 **What to Learn?**  
+- CIDR (Classless Inter-Domain Routing)  
+- Subnet Masks & VLSM  
+- Private vs Public IPs  
+- IP Address Calculation  
 
-📚 **Resources:**
-- "CCNA 200-301 Official Cert Guide"
-- AWS Free Tier (Hands-on VPC, Security Groups)
+🔹 **Practice Tools:**  
+🛠 [Subnet Calculator](https://www.subnet-calculator.com/)  
+🎥 [Subnetting Masterclass (YouTube)](https://www.youtube.com/watch?v=X0ySJ8hRH2k)  
 
 ---
 
-## 🎯 **Final Step: Certifications & Projects**
-✅ **Certifications to Consider:**
-- **CCNA (Cisco Certified Network Associate)**
-- **CompTIA Network+**
-- **AWS Certified Advanced Networking – Specialty**
-- **JNCIA-Junos (Juniper Networks)**
+## **4️⃣ Network Devices & Configuration**  
+⏳ *Time Required:* 2 Weeks  
+✅ *Goal:* Learn about network hardware and configuration basics.  
 
-✅ **Projects to Build:**
-- **Set up a home lab using VirtualBox & Cisco Packet Tracer**
-- **Create a simple firewall rule set**
-- **Analyze a network attack using Wireshark**
+🔹 **What to Learn?**  
+- Routers, Switches, Hubs, Firewalls  
+- VLANs & Trunking  
+- NAT (Network Address Translation)  
+- Load Balancers  
+
+🔹 **Hands-On Practice:**  
+🔹 Set up a basic **home lab** using:  
+  - Cisco Packet Tracer  
+  - GNS3  
+  - EVE-NG  
+
+🎥 [Cisco Packet Tracer Labs](https://www.youtube.com/@JeremyCioara)  
 
 ---
 
-🔥 **Bonus Tips:**
-- Join networking communities (Cisco Forums, Reddit r/networking)
-- Follow NetworkChuck (YouTube) for fun tutorials
-- Read RFCs (Request for Comments) for in-depth protocol knowledge
+## **5️⃣ Network Security Basics**  
+⏳ *Time Required:* 1-2 Weeks  
+✅ *Goal:* Understand security principles to secure networks.  
+
+🔹 **What to Learn?**  
+- Firewalls (Types & Rules)  
+- IDS/IPS (Intrusion Detection & Prevention Systems)  
+- VPN (Virtual Private Network)  
+- Zero Trust Security Model  
+
+🎥 [Practical Ethical Hacking Course (YouTube)](https://www.youtube.com/@tcmgsec)  
+
+---
+
+## **6️⃣ Linux Networking & Command-Line Tools**  
+⏳ *Time Required:* 1-2 Weeks  
+✅ *Goal:* Learn essential Linux networking tools used in IT.  
+
+🔹 **What to Learn?**  
+- `ip a` (Show IP addresses)  
+- `ping`, `traceroute`, `nslookup`, `dig`  
+- `netstat`, `ss`  
+- `tcpdump`, `Wireshark`  
+
+🎥 [Linux Networking Basics (YouTube)](https://www.youtube.com/watch?v=XSrL-W4b5C8)  
+
+---
+
+## **7️⃣ Cloud Networking (Optional but Useful for DevOps/Cloud)**  
+⏳ *Time Required:* 2 Weeks  
+✅ *Goal:* Understand networking in cloud environments like AWS/Azure.  
+
+🔹 **What to Learn?**  
+- VPC (Virtual Private Cloud)  
+- Subnets, Route Tables  
+- Security Groups, NACLs  
+- Load Balancers (ALB, NLB)  
+- VPN & Direct Connect  
+
+🎥 [AWS Networking Explained](https://www.youtube.com/watch?v=8aVtOKD3vOw)  
+
+---
+
+## **8️⃣ Hands-On Labs & Certifications**  
+⏳ *Time Required:* Continuous  
+✅ *Goal:* Gain practical experience & validate knowledge.  
+
+🔹 **Certifications:**  
+- **CCNA (Cisco Certified Network Associate)** *(Beginner-Intermediate)*  
+- **CompTIA Network+** *(Beginner)*  
+- **AWS Certified Advanced Networking - Specialty** *(Cloud Networking)*  
+
+🔹 **Hands-On Labs:**  
+- Set up **a basic network** using Packet Tracer/GNS3.  
+- Use **Wireshark** to capture & analyze network traffic.  
+- Configure a **firewall & VPN** in a virtual lab.  
+
+---
+
+### 🚀 **Final Step: Apply Your Knowledge**
+Once you understand networking fundamentals, integrate them into real-world IT tasks:
+✅ Configure networking in **Docker & Kubernetes**  
+✅ Set up **firewall rules & security groups** in AWS/Azure  
+✅ Automate network monitoring with **Bash scripts**  
