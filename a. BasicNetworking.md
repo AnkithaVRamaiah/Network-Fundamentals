@@ -1,5 +1,5 @@
 ### **1. Basics of Networking**
-
+ 
 **What is a Network?**  
 A **network** is a system where two or more devices (e.g., computers, smartphones, printers) are connected to exchange data and share resources like files, internet access, or printers.
 
